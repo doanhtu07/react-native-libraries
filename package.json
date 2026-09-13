@@ -1,0 +1,28 @@
+{
+  "name": "root",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devEngines": {
+    "packageManager": {
+      "name": "pnpm",
+      "version": "12.4.1",
+      "onFail": "download"
+    }
+  },
+  "packageManager": "pnpm@12.4.1",
+  "type": "module",
+  "devDependencies": {
+    "@eslint/compat": "^2.1.1",
+    "eslint": "^10.10.0",
+    "eslint-plugin-prettier": "^5.5.6",
+    "espree": "^11.2.0",
+    "prettier": "^3.9.6"
+  }
+}
