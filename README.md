@@ -17,6 +17,17 @@ Links:
 - But you can also use it for stacking modals, center sheets, etc. since it provides primitive components to build your own sheets
 - For support other types of sheets, create GitHub issues on the repo
 
+## Native sheet
+
+Links:
+
+- https://github.com/lodev09/react-native-true-sheet
+
+---
+
+- Support native sheet components
+- But it lacks complicated features like managing stacking sheets and custom gestures
+
 ## Native context menu
 
 Links:
