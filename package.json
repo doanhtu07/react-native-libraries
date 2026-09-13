@@ -1,23 +1,15 @@
 {
-  "name": "root",
+  "name": "react-native-libraries",
   "version": "1.0.0",
   "description": "",
+  "keywords": [],
+  "author": "",
+  "packageManager": "pnpm@12.4.1",
+  "type": "module",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "devEngines": {
-    "packageManager": {
-      "name": "pnpm",
-      "version": "12.4.1",
-      "onFail": "download"
-    }
-  },
-  "packageManager": "pnpm@12.4.1",
-  "type": "module",
   "devDependencies": {
     "@eslint/compat": "^2.1.1",
     "eslint": "^10.10.0",
