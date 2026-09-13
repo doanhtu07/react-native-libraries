@@ -2,6 +2,8 @@
 
 A list of libraries for my React Native apps
 
+- Include plugins to fix build issues
+
 ## Sheet
 
 Links:
