@@ -38,6 +38,17 @@ Links:
 
 - Native menu components
 
+## Floating UI
+
+Links:
+
+- https://floating-ui.com/docs/react-native
+
+---
+
+- Support positioning floating elements
+- You can manually implement this, but this library core already implements collision detection, flipping, and other positioning features for you
+
 ## Zoom (+ gallery)
 
 Links:
