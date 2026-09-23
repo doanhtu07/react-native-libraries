@@ -4,7 +4,16 @@ A list of libraries for my React Native apps
 
 - Include plugins to fix build issues
 
-## Sheet
+## Essentials
+
+- https://github.com/software-mansion/react-native-reanimated
+- https://github.com/software-mansion/react-native-gesture-handler
+- https://github.com/AppAndFlow/react-native-safe-area-context
+- https://github.com/kirillzyusko/react-native-keyboard-controller
+
+## Layering
+
+### Sheet
 
 Links:
 
@@ -17,7 +26,7 @@ Links:
 - But you can also use it for stacking modals, center sheets, etc. since it provides primitive components to build your own sheets
 - For support other types of sheets, create GitHub issues on the repo
 
-## Native sheet
+### Native sheet
 
 Links:
 
@@ -28,7 +37,7 @@ Links:
 - Support native sheet components
 - But it lacks complicated features like managing stacking sheets and custom gestures
 
-## Native context menu
+### Native context menu
 
 Links:
 
@@ -38,7 +47,7 @@ Links:
 
 - Native menu components
 
-## Floating UI
+### Floating UI
 
 Links:
 
@@ -49,7 +58,44 @@ Links:
 - Support positioning floating elements
 - You can manually implement this, but this library core already implements collision detection, flipping, and other positioning features for you
 
-## Zoom (+ gallery)
+## Special renderer
+
+### 2D graphics
+
+Links:
+
+- https://github.com/Shopify/react-native-skia
+
+---
+
+- Support drawing any kind of 2D graphics
+- Useful for custom visualizations + animations
+
+### File viewer
+
+Links:
+
+- https://github.com/Vadko/react-native-file-viewer-turbo
+
+---
+
+- Support viewing files any types of files with platform native viewers
+
+### Markdown renderer
+
+Links:
+
+- https://www.npmjs.com/package/react-native-markdown-display (Unmaintained but could be used if your React Native version is lower than 0.82)
+- https://github.com/software-mansion/enriched-markdown (Requires React Native 0.82+)
+
+---
+
+- Support rendering Markdown content
+- Useful for displaying content from CMS or AI chat interfaces
+
+## Gestures
+
+### Zoom (+ gallery)
 
 Links:
 
@@ -65,40 +111,40 @@ Links:
 
 I haven't used this library much, so I need to test it again when time comes
 
-## 2D graphics
+### Press
 
 Links:
 
-- https://github.com/Shopify/react-native-skia
+- https://github.com/enzomanuelmangano/pressto
 
 ---
 
-- Support drawing any kind of 2D graphics
-- Useful for custom visualizations + animations
+- Support animated press effects
 
-## File viewer
+### Declarative animation
 
 Links:
 
-- https://github.com/Vadko/react-native-file-viewer-turbo
+- https://github.com/AppAndFlow/react-native-ease
 
 ---
 
-- Support viewing files any types of files with platform native viewers
+- Support declarative animation using native platform APIs
 
-## Markdown renderer
+### Haptics
 
 Links:
 
-- https://www.npmjs.com/package/react-native-markdown-display (Unmaintained but could be used if your React Native version is lower than 0.82)
-- https://github.com/software-mansion/enriched-markdown (Requires React Native 0.82+)
+- https://github.com/software-mansion/pulsar
+- https://docs.expo.dev/versions/latest/sdk/haptics
 
 ---
 
-- Support rendering Markdown content
-- Useful for displaying content from CMS or AI chat interfaces
+- Support haptic feedback (physical sensations)
 
-## Persistent relational storage
+## Storage
+
+### Persistent relational storage
 
 Links:
 
@@ -110,7 +156,7 @@ Links:
 - Recommended if you store huge amount of data in your app locally
 - Useful for local-first apps
 
-## Persistent key-value storage
+### Persistent key-value storage
 
 Links:
 
